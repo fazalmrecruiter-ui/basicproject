@@ -40,7 +40,7 @@ describe('example to-validate login', () => {
 
         cy.title().should('eq', "Test Login | Practice Test Automation");
 
-        cy.log
+        cy.log("Test ran successfully");
 
     })
 
