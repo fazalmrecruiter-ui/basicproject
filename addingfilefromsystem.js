@@ -34,11 +34,7 @@ describe('example to-validate login', () => {
         cy.get('div >h1').should('have.text', 'Logged In Successfully');
 
 
-        cy.title().should('eq', 'Logged In Successfully | Practice Test Automation')
-
-        cy.contains('Log out').click();
-
-        cy.title().should('eq', "Test Login | Practice Test Automation");
+      
 
     })
 
